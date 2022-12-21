@@ -10,6 +10,7 @@ public class ConateExample {
         System.out.println("hello" + 5 + 4);
                         // String + int -> String = hello5
                         // hello5 (String) + 4(int) = hello54
+        System.out.println(5 + 4 + "hello" + 4+ 77);
 
     }
 }

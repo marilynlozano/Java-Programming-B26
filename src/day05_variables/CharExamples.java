@@ -28,5 +28,7 @@ public class CharExamples {
 
         System.out.println("chars: " + letterOne + letterTwo + letterThree + numberOne + specialOne); // String in the beginning
 
+        System.out.println(letterOne + letterTwo + "chars: " + letterThree + numberOne + specialOne);
+
     }
 }
