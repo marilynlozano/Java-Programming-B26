@@ -13,5 +13,6 @@ public class myName {
         String name = " " + letter1 + letter2 + letter3 + letter4 + letter5 + letter6 + letter7;
 
         System.out.println(name);
+
     }
 }
