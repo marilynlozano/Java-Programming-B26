@@ -37,4 +37,24 @@ Ex:
         return fixer;
 
     }
+
+    /*
+   Frequency of Character
+
+create a method that will accept a word(String) and a letter (char) and return how many times that given letter is found in the given word
+
+    */
+    public static int frecuency(String word, char letter){
+        int counter=0;
+        for (int i =0; i<word.length(); i++){
+            if (word.charAt(i)==letter){
+                counter++;
+            }else{
+                continue;
+            }
+        }
+        return counter;
+    }
+
+
 }

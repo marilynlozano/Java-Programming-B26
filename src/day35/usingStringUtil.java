@@ -8,5 +8,7 @@ public class usingStringUtil {
 
         System.out.println(stringUtil.fixer("jaMES"));
 
+        System.out.println(stringUtil.frecuency("aabbaacca",'a'));
+
     }
 }
