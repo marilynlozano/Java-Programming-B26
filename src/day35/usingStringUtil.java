@@ -1,0 +1,12 @@
+package day35;
+
+import my_utilitiesMelanie.stringUtil;
+
+public class usingStringUtil {
+    public static void main(String[] args) {
+        System.out.println(stringUtil.reverse("apple"));
+
+        System.out.println(stringUtil.fixer("jaMES"));
+
+    }
+}
