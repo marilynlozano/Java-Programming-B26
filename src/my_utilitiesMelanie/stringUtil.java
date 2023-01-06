@@ -1,5 +1,7 @@
 package my_utilitiesMelanie;
 
+import my_utilities.StringUtil;
+
 public class stringUtil {
 
     /*
@@ -54,6 +56,26 @@ create a method that will accept a word(String) and a letter (char) and return h
             }
         }
         return counter;
+    }
+    /*
+    Unique Characters
+
+create a method that will accept a word(String) and return a String with all the unique characters. A character is unique if it only appears in the String once.
+
+Hint: use your frequency method to do some of the work
+    */
+
+    public static String unique(String word) {
+        String result = "";
+        for (int i = 0; i < word.length(); i++) {
+            int count = StringUtil.frequencyOfCharacter(word, word.charAt(i));
+
+            if (count == 1) {
+                result += word.charAt(i);
+
+            }
+        }
+        return result;
     }
 
 

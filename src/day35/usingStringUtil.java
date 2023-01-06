@@ -10,5 +10,7 @@ public class usingStringUtil {
 
         System.out.println(stringUtil.frecuency("aabbaacca",'a'));
 
+        System.out.println(stringUtil.unique("java"));
+
     }
 }
