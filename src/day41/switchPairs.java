@@ -23,11 +23,15 @@ public class switchPairs {
     "the”}
      */
 
+
     public static void main(String[] args) {
 
+            ArrayList<String> arrayWords = new ArrayList<>(Arrays.asList("Cat", "in", "the", "hat"));{
+                System.out.println(swapingPairs(arrayWords));
+            }
+        }
 
         public static ArrayList<String> swapingPairs(ArrayList<String> words) {
-            ArrayList<String> words = new ArrayList<>(Arrays.asList("Cat", "in", "the", "hat"));{
 
                 for (int i = 0; i < words.size(); i += 2) {
                     String temp = words.get(i);
@@ -38,11 +42,5 @@ public class switchPairs {
 
             }
         }
-    }
 
-    public static void main(String[] args) {
-        ArrayList<String> words = new ArrayList<>(Arrays.asList("Cat", "in", "the", "hat"));{
-            System.out.println(switchPairs);
-    }
-    }
-}
+
